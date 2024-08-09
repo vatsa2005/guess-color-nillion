@@ -23,7 +23,7 @@ export default function Main() {
   const [programId, setProgramId] = useState<string | null>(null);
   const [additionalComputeValues, setAdditionalComputeValues] = useState<NadaValues | null>(null);
   const [computeResult, setComputeResult] = useState<string | null>(null);
-  const [randomValue, setRandomValue] = useState<number | undefined>(undefined);
+  const [randomValue, setRandomValue] = useState<number | null>(null);
 
   const colors = ['Red', 'Blue', 'Green', 'Yellow', 'Orange', 'Purple'];
   
